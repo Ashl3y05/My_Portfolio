@@ -25,3 +25,51 @@
 .right{
     background-color: rebeccapurple;
 }
+
+.project-title{
+    text-align: center;
+    padding: 5em 2em;
+
+}
+
+.project-containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.about-me{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center;
+}
+.about-me div {
+    height: 90vh;
+    width: 90vh;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.about-left {
+    text-align: center;
+}
+
+.about-right {
+    text-align: center;
+}
